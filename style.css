@@ -235,3 +235,55 @@
 .appointment-btn:hover {
     color: rgb(255, 38, 0);
 }
+
+/* blog style */
+
+.blog {
+    padding-top: 50px;
+}
+
+.blog-title {
+    font-size: 50px;
+    text-align: center;
+}
+
+.blog-span {
+    color: rgb(255, 38, 0);
+}
+
+.blog-info {
+    font-size: 20px;
+    text-align: center;
+    width: 700px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 80px;
+    padding-bottom: 30px;
+}
+
+.card {
+    width: 350px;
+    height: 420px;
+    border-radius: 10px;
+    box-shadow: 2px 8px 8px 1px gray;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-title {
+    padding: 20px 10px 10px 10px;
+}
+
+.card-info {
+    padding: 10px 10px 20px 10px;
+    font-size: 18px;
+}
