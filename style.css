@@ -25,10 +25,69 @@
 .menu-item {
     list-style: none;
     padding: 0 20px;
-    font-size: 18px;
+    font-size: 20px;
     cursor: pointer;
 }
 
 .menu-item:hover {
     color: black;
+}
+
+/* banner style */
+
+.banner {
+    background-image: url("asset/image/background.jpg"), linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.digital {
+    color: rgb(253, 38, 0);
+}
+
+.banner-title {
+    font-size: 90px;
+    padding-bottom: 10px;
+}
+
+.banner-info {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.banner-btn-1 {
+    color: white;
+    font-size: 18px;
+    background-color: rgb(255, 38, 0);
+    border: 0;
+    border-radius: 2px;
+    padding: 20px 40px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.banner-btn-1:hover {
+    color: black;
+}
+
+.banner-btn-2 {
+    color: black;
+    font-size: 18px;
+    background-color: white;
+    border: 0;
+    border-radius: 2px;
+    padding: 20px 40px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.banner-btn-2:hover {
+    color: rgb(255, 38, 0);
 }
